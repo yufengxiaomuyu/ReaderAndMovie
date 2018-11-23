@@ -1,0 +1,39 @@
+@import '/page/movies/movie/movie-template.wxss';
+
+.movie-list-container {
+  display: flex;
+  flex-direction: column;
+  background-color: #fff;
+  margin-bottom: 30rpx;
+}
+
+.movie-wrap {
+  width: 92%;
+  margin: 0 auto;
+}
+
+.movie-list-head {
+  padding: 30rpx 0 20rpx;
+}
+
+.more {
+  float: right;
+}
+
+.more-text {
+  vertical-align: middle;
+  margin-right: 10rpx;
+  color: #1f4ba5;
+}
+
+.more-img {
+  width: 9rpx;
+  height: 16rpx;
+  vertical-align: middle;
+}
+
+.movies-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}

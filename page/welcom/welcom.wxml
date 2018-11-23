@@ -1,0 +1,10 @@
+<view class='container'>
+  <view class='avatar-container'>
+    <open-data class='user_avatar' type="userAvatarUrl"></open-data>
+  </view>
+  <view class='hello-container'>
+    <text class='user_name'>Hello,</text>
+    <open-data class='user_name' type="userNickName"></open-data>
+  </view>
+  <button class='moto' bindtap='ontap'>开启小程序之旅</button>
+</view>
